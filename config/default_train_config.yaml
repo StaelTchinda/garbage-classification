@@ -1,0 +1,11 @@
+# Training configuration
+optimizer: "adam"
+loss: "sparse_categorical_crossentropy"
+metrics:
+  - "accuracy"
+epochs: 100
+callbacks:
+  - __callback_name__: "EarlyStopping"
+    patience: 10
+  - __callback_name__: "ModelCheckpoint"
+    filepath: "./checkpoints/model.keras"

@@ -1,0 +1,9 @@
+pyyaml
+h5py
+pandas
+numpy
+opencv-python
+tensorflow
+keras
+scikit-learn
+kaggle
